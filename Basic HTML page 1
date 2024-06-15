@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First web page</title>
+</head> <!-- this is an ultimate code for basic HTML -->
+
+<body>
+    <header> <H1>Header: This page uses Basic HTML</H1></header>
+    <br><br>
+    <hr>
+    
+    <nav>Nav tag contains Links that redirect a user
+        <ul>
+            <li>Home Page</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+    <hr>
+    <article>
+        <h1>This is an article </h1>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore perferendis sed deserunt cumque numquam iste sunt atque, rem neque eaque nostrum laborum, blanditiis rerum odit animi cupiditate odio hic ullam!</p>
+    </article> <br> 
+    <hr>
+    <aside>Aside tag: The content which we don't want the Search engine to read but have to display on page is written under Aside Tag. E.g. Ads</aside>
+    <br><br>
+    <hr>
+    <main><h1> The main content of site is shown under main Tag</h1> <br> <br>
+        
+        <section> <h2> This is a section used to group related content </h2>
+        
+            <H1> Section 1: Multimedia Tags </H1><br>
+        
+        <H3>1. Embedded tag: used to embed a portion of webpage in our website</H3> 
+        <p><a href="https://commons.wikimedia.org/wiki/File:Google_2015_logo.svg#/media/File:Google_2015_logo.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google 2015 logo.svg" height="92" width="272"></a><br>By Google LLC - <a rel="nofollow" class="external free" href="https://gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg">https://gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg</a>, Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=42827827">Link</a></p>
+        <br>
+        
+        <h3>2. Image tag</h3>
+        <img src="c:\Users\admin\Downloads\pexels-michael-block-1691617-3225517.jpg" alt="An alt text for image of nature image" height = 100, Loading="auto">
+        <br>
+        
+        <h3>3. Video tag</h3>
+       <video poster="c:\Users\admin\Downloads\pexels-michael-block-1691617-3225517.jpg" controls>
+        <source src="6394054-uhd_4096_2048_24fps.mp4" type="video/mp4" height="100">
+       </video> 
+      
+       <h3> More Tags</h3>
+       <ol><li>4.Audio Tag</li>
+        <li>5.Object tag e.g.pdf</li>
+       </ol>
+      
+    </section>
+       <br><br><hr>
+       <section><h2>This is another section of basic tags</h2>
+        <h1>Section 2: Basic tags</h1><br>
+       
+        <h3>1.Paragraph tag</h3>
+        <p> This is a paragraph</p>
+        <br>
+        
+        <h3>2. Span tag</h3>
+        <span>This is an inline element, can be used to add styles</span>
+        <br>
+        
+        <h3>3.Pre tag</h3>
+       <pre> This tag   considers 
+        spaces and 
+
+        line gaps.
+       </pre><br>
+
+       <h3>4. Bold, Italic and Underline tag</h3>
+       <b>This is bold</b><br>
+       <i>This is italics</i><br>
+       <u>This is underlined</u> <br>
+       <p> E.g. <b>Darshan Raval </b><i>is the</i><u>Strongest Independent Artist</u> <i>of India.</i></p><br>
+
+       <h3>5.Strikethrough tag</h3>
+       <p>Nothing is <s>Impossible</s></p><br>
+
+       <h3>6. Highlight Text tag</h3>
+       <mark>This is Highlighted</mark> <br>
+
+       <h3>7. Big and small tag</h3>
+       <big>Big Text</big>
+       <small>Small text</small> <br>
+
+       <h3>8.Horizontal ruler tag</h3>
+       <p>This seperates sections in a page as used above</p> <br>
+
+       <h3>9. List tags</h3>
+       <b>Ordered List</b> <br>
+       <ol type="A">
+        <li>Item 1</li>
+        <li>Item 2</li>
+       </ol> <br>
+       <b>Unordered List</b>
+       <ul type="square">
+        <li>Item 1</li>
+        <li>Item 2</li>
+       </ul> <br>
+       <b>Defintion List</b>
+       <dl>
+        <dt>Term 1</dt>
+        <dd>Dfinition 1</dd>
+        <dt>Term 2</dt>
+        <dd>Definition 2</dd>
+       </dl>
+    </section>
+
+    </main><hr>
+    <footer>This page Ends here. This is a footer.</footer>
+ </body>
+</html>
