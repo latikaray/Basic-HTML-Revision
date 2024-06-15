@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic HTML page 2</title>
+</head>
+
+<!-- Below code is of css, used to style the table -->
+ 
+<style>
+    table{width: 50%;border-collapse: collapse;}
+    th{color: rgb(255, 0, 0);border: 1pxsolid rgb(62, 231, 28);font-size: 30px;}
+    td{color: rgb(10, 15, 80);font-size: 20px;text-align: center;border: 1px solid blue;}
+    thead{background-color: antiquewhite;}
+    table #alter thead {background-color: aquamarine;}
+    table #alter tbody tr :nth-child(even){background-color: beige;}
+    table #alter tbody tr :nth-child(odd){background-color: blanchedalmond;}
+</style>
+<body>
+<h1>Forms</h1>
+<p> Forms in HTML uses Input tag to get data from user. In this page, we will see types of input tag using Table creation in HTML.</p> <hr>
+<table>
+    <thead><b>Tables in HTML</b></thead>
+   
+    <tbody>
+        <tr>
+            <th>Input Type</th> 
+            <th>Data feeded</th>
+        </tr>
+        <tr>
+            <td>text</td>
+            <td>Name, Address, etc</td>
+        </tr>
+        <tr>
+            <td>submit</td>
+            <td>to submit data to server</td>
+        </tr>
+        <tr>
+            <td>password</td>
+            <td>Masked content</td>
+        </tr>
+        <tr>
+            <td>radio</td>
+            <td>a single option from given</td>
+        </tr>
+        <tr>
+            <td>checkbox</td>
+            <td>select multiple options</td>
+        </tr>
+        <tr>
+            <td>button</td>
+            <td>does not submit data, just used to trigger some function</td>
+        </tr>
+        <tr>
+            <td>colour</td>
+            <td>colour from colour palatte</td>
+        </tr>
+        <tr>
+            <td>date</td>
+            <td>date from calender</td>
+        </tr>
+        <tr>
+            <td>file</td>
+            <td>upload files from local computer</td>
+        </tr>
+        <tr>
+            <td>month</td>
+            <td>select a month and year</td>
+        </tr>
+        <tr>
+            <td>time</td>
+            <td>time from clock</td>
+        </tr>
+        <tr>
+            <td>datetime-local</td>
+            <td>date and time in local time zone</td>
+        </tr>
+        <tr>
+            <td>week</td>
+            <td>week of the year</td>
+        </tr>
+        <tr>
+            <td>number</td>
+            <td>numeric values e.g. Amount</td>
+        </tr> 
+        <tr>
+            <td>range</td>
+            <td>slider control values</td>
+        </tr> 
+    </tbody>
+    
+    <tfoot>
+        <tr>
+        <td colspan="3">Many more continues...</td></tr>
+    </tfoot>
+</table><br>
+</body>
+<hr>
+<footer>This page was about input types in HTML described using Table creation. These types will be used in forms</footer>
+</html>
